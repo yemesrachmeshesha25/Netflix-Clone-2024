@@ -25,6 +25,7 @@ const Header = () => {
 <div className='header_right'>
   <ul>
     <li><SearchIcon /></li>
+    <li>kids</li>
     <li><NotificationsNoneIcon /></li>
     <li><AccountBoxIcon /></li>
     <li><ArrowDropDownIcon /></li>

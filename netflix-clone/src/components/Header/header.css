@@ -5,13 +5,11 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(20, 20, 20);
-    /* background-color: transparent; */
     height: 10vh;
     color: white;
     transition: 0.5s;
     transition-timing-function: ease-in;
     z-index: 1;
-    /* background-color: red; */
 }
 .nav_black{
     background-color: rgb(20, 20, 20);
@@ -21,7 +19,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: yellow; */
 }
 .header_left ul{
     width: 140%;
@@ -30,7 +27,6 @@
     align-items: center;
     list-style: none;
     cursor: pointer;
-    /* background-color: lightblue; */
 }
 .header_right ul{
     width: 150%;
@@ -38,7 +34,6 @@
     justify-content: space-around;
     list-style: none;
     cursor: pointer;
-    /* background-color: lightgreen; */
 }
 
 
