@@ -1,13 +1,19 @@
-body {
+/* @import url(https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyCgLqJyGx33fvx2WBvPtv2mgFAXotSVvVw); */
+
+@import url('https://fonts.googleapis.com/css?family=fontFamily1:wght@100;200;300;400;500;600;700;800;900&family=fontFamily2:wght@00;200;300;400;500;600;700;800;900&display=swap');
+:root{
+  --font-base: 'lexend', sans-serif;;
+  --font-second-base: 'Inter', sams-serif;
+  --bg-color:#111;
+  --primary-color:#ffffff;
+  --secondary-color:#e50914;
+}
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #111;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
