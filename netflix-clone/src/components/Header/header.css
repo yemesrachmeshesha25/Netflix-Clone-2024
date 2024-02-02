@@ -7,7 +7,7 @@
     background-color: rgb(20, 20, 20);
     height: 10vh;
     color: white;
-    transition: 0.5s;
+    transition: all 0.5s;
     transition-timing-function: ease-in;
     z-index: 1;
 }
@@ -19,6 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 50px;
 }
 .header_left ul{
     width: 140%;
